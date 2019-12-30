@@ -1,0 +1,5 @@
+user_input = input("put something:")
+f=open('test1.txt','a')
+f.write(user_input)
+f.write("\n")
+f.close()

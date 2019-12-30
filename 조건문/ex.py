@@ -1,0 +1,10 @@
+a=[4,2,3,1,1,1]
+print(id(a))
+print(id(a[0]))
+print(id(a[1]))
+print(id(a[2]))
+print(id(a[3]))
+print(id(a[4]))
+print(id(a[5]))
+a.append(1)
+print(id(a[6]))
